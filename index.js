@@ -5,7 +5,7 @@ var str2 = ".img2";
 
 var randomNumberOne =  Math.floor(Math.random() * (max - min + 1)) + min;
 var randomNumberTwo =  Math.floor(Math.random() * (max - min + 1)) + min;
-
+// function
 function picChange(number,strVal){
 if(number === 1) {
     document.querySelector(strVal).setAttribute("src" , "images/dice1.png"); 
